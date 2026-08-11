@@ -22,6 +22,7 @@ public class ProductOrderMain3 {
 
             System.out.print("수량: ");
             int quantity = scanner.nextInt();
+            scanner.nextLine(); // 입력 버퍼를 비우기 위한 코드
 
             orders[i] = createOrder(productName, price, quantity);
         }
