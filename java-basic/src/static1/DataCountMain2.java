@@ -1,6 +1,6 @@
 package static1;
 
-public class DataCounterMain2 {
+public class DataCountMain2 {
     public static void main(String[] args) {
         Counter counter = new Counter();
         Data2 data1 = new Data2("A", counter);
