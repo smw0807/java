@@ -12,5 +12,9 @@ public class CarMain1 {
         Model3Car model3car = new Model3Car();
         driver.setCar(model3car);
         driver.drive();
+
+        NewCar newCar = new NewCar();
+        driver.setCar(newCar);
+        driver.drive();
     }
 }
