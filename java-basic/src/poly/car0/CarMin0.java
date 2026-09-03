@@ -7,5 +7,10 @@ public class CarMin0 {
 
         driver.setK3Car(k3car);
         driver.drive();
+
+        Model3Car model3car = new Model3Car();
+        driver.setK3Car(null);
+        driver.setModel3Car(model3car);
+        driver.drive();
     }
 }
